@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <title>PopOvers</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h2> PopOvers</h2>
+                <hr>
+
+                <button class="btn btn-primary " data-container="body" 
+                data-placement="top" data-toggle="popover" 
+                title="Titulo del popover" data-content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus doloremque eaque iure voluptatem? Placeat, tenetur quaerat. Earum quisquam asperiores deleniti alias vitae? Mollitia explicabo tempore officiis est dolore. Atque, corrupti."
+                >Arriba</button>
+
+
+                <button class="btn btn-primary " data-container="body" 
+                data-placement="left" data-toggle="popover" 
+                title="Titulo del popover" data-content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus doloremque eaque iure voluptatem? Placeat, tenetur quaerat. Earum quisquam asperiores deleniti alias vitae? Mollitia explicabo tempore officiis est dolore. Atque, corrupti."
+                >Izquierda</button>
+
+
+                <button class="btn btn-primary " data-container="body" 
+                data-placement="right" data-toggle="popover" 
+                title="Titulo del popover" data-content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus doloremque eaque iure voluptatem? Placeat, tenetur quaerat. Earum quisquam asperiores deleniti alias vitae? Mollitia explicabo tempore officiis est dolore. Atque, corrupti."
+                >Derecha</button>
+
+
+                <button class="btn btn-primary " data-container="body" 
+                data-placement="bottom" data-toggle="popover" 
+                title="Titulo del popover" data-content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus doloremque eaque iure voluptatem? Placeat, tenetur quaerat. Earum quisquam asperiores deleniti alias vitae? Mollitia explicabo tempore officiis est dolore. Atque, corrupti."
+                >Abajo</button>
+                
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+    <script>
+        $(function(){
+            $('[data-toggle="popover"]').popover();
+        })
+    </script>  
+</body>
+</html> 
